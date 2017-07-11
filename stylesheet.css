@@ -1,0 +1,73 @@
+.body {
+    background: #fff;
+    font-family: Gilroy,sans-serif;
+  	font-size: 16px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 500;
+  	line-height: 40px;
+}
+
+
+.container {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+}
+
+.header {
+  background: #fff;
+  font-family: Gilroy, sans-serif;
+  font-size: 25px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 40px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-bottom: 40px;
+
+
+}
+
+.teaserimage {
+  width: 1300px;
+  margin: auto;
+
+}
+
+.port {
+    background: #fff;
+    font-family: Gilroy,sans-serif;
+  	font-size: 100px;
+  	font-style: normal;
+  	font-variant: normal;
+  	font-weight: 500;
+  	line-height: 40px;
+    text-align: left;
+}
+
+.folio {
+  background: #fff;
+  font-family: Gilroy,sans-serif;
+  font-size: 100px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 40px;
+  text-align:right;
+}
+
+.navigation {
+  font-family: Courier,sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 500;
+  line-height: 40px;
+  list-style-type: none;
+  display: inline-block;
+  margin: auto
+
+}
