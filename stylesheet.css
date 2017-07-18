@@ -1,15 +1,9 @@
-.{
+* {
   box-sizing: border-box;
 }
 
 .body {
     background: #fff;
-    font-family: Gilroy,sans-serif;
-  	font-size: 16px;
-  	font-style: normal;
-  	font-variant: normal;
-  	font-weight: 500;
-  	line-height: 40px;
 }
 
 
@@ -19,7 +13,7 @@
   margin-right: auto;
   background: #fff;
   border-style: dashed;
-  border-width:2px;
+  border-width: 2px;
 }
 
 .header {
@@ -32,12 +26,11 @@
   line-height: 60px;
   letter-spacing: 20px;
   padding: 60px 40px;
-  margin-bottom: 40px;
+  margin-bottom: 10px;
+  margin-left: 50px;
+  top:20px;
   position: relative;
-  float:left;
-
-
-
+  float: left;
 }
 
 .teaserimage {
@@ -46,9 +39,9 @@
   min-width: 400px;
   min-height:inherit;
   margin: 0px auto;
-  position:relative;
-  display:block;
-
+  bottom:20px;
+  position: relative;
+  display: block;
 }
 
 .port, .folio {
@@ -67,12 +60,15 @@
 .port {
   text-align: left;
   float:left;
-  margin-left: 10px;
+  left: 20px;
+  top:200px;
 }
 
 .folio {
   text-align: right;
   float:right;
+  right:20px;
+  padding-top: 300px;
 }
 
 
@@ -85,6 +81,7 @@
   list-style-type: none;
   display: inline-block;
   padding: 0;
+  bottom:20px;
   position: relative;
   text-align: center;
   width: 100%;
@@ -92,6 +89,6 @@
 
 li {
   display: inline;
-  padding: 100px;
+  padding: 90px;
   letter-spacing:10px;
   }
