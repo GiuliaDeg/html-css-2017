@@ -29,7 +29,7 @@
   font-style: normal;
   font-variant: normal;
   font-weight: 100;
-  line-height: 40px;
+  line-height: 60px;
   letter-spacing: 20px;
   padding: 60px 40px;
   margin-bottom: 40px;
@@ -58,15 +58,16 @@
   	font-style: normal;
   	font-variant: normal;
   	font-weight: 500;
+    line-height: 50px;
     letter-spacing:20px;
-    text-align: left;
-    float:left;
-    position:relative;
+    float: left;
+    position: relative;
 }
 
 .port {
   text-align: left;
   float:left;
+  margin-left: 10px;
 }
 
 .folio {
