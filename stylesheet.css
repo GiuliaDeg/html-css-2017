@@ -1,3 +1,7 @@
+.{
+  box-sizing: border-box;
+}
+
 .body {
     background: #fff;
     font-family: Gilroy,sans-serif;
@@ -13,27 +17,37 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 100px;
   background: #fff;
+  border-style: dashed;
+  border-width:5px;
 }
 
 .header {
   background: #fff;
-  font-family: Gilroy, sans-serif;
-  font-size: 25px;
+  font-family: monospace;
+  font-size: 20px;
   font-style: normal;
   font-variant: normal;
-  font-weight: normal;
+  font-weight: 100;
   line-height: 40px;
-  padding-top: 40px;
+  padding-top: 60px;
   padding-bottom: 40px;
   margin-bottom: 40px;
+  position; fixed;
 
 
 }
 
 .teaserimage {
   width: 1300px;
+  max-width: 1400px;
+  min-width: 400px;
+  min-height:inherit;
   margin: auto;
+  position:relative;
+
 
 }
 
@@ -67,7 +81,7 @@
   font-weight: 500;
   line-height: 40px;
   list-style-type: none;
-  display: inline-block;
+  display: inline;
   margin: auto
 
 }
