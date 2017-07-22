@@ -16,67 +16,46 @@
   width: 100%;
   margin-left: auto;
   margin-right: auto;
-  bottom: 300px;
   background: #fff;
+}
+
+.main {
+    position:relative;
+    padding-bottom: 90px;
 }
 
 .header {
-  background: #fff;
   font-family: monospace;
   font-size: 20px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 100;
-  line-height: 60px;
-  letter-spacing: 20px;
-  padding: 60px 40px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  top:20px;
-  position: fixed;
-  float: left;
+  letter-spacing: 18px;
+  padding-top: 40px;
+  padding-left: 55px;
+  text-align:center;
 }
 
-.port, .folio {
-    font-family: Gilroy,sans-serif;
-  	font-size: 100px;
-  	font-style: normal;
-  	font-variant: normal;
-  	font-weight: 500;
-    letter-spacing:20px;
-    position: relative;
+.portfolio--title {
+  font-family: Gilroy, Futura, sans-serif;
+  z-index:1;
 }
 
-.port {
-  text-align: left;
-  float: left;
-  left: 20px;
-  top:300px;
-  z-index:100;
+.portfolio--title .left, .portfolio--title .right  {
+    position: absolute;
 }
 
-.folio {
-  text-align: right;
-  float: right;
-  right:20px;
-  top: 600px;
-  bottom:200px;
-  z-index:100;
+.portfolio--title .left {
+  top: 20%;
 }
 
-.teaserimage {
-  width: 100%;
-  max-width: 1300px;
-  min-width: 400px;
-  margin: 0px auto;
-  bottom:100px;
-  position: relative;
-  display: block;
-  z-index:50;
+.portfolio--title .right  {
+  bottom: 20%;
+}
+
+.teaserimage--container {
+  font: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
 }
 
 .navigation {
-  font-family: Courier,sans-serif;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-size: 25px;
   font-style: normal;
   font-variant: normal;
