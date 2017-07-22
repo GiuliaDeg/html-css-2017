@@ -80,10 +80,18 @@ h1 {
   text-align: center;
 }
 
+  #link1, #link2, #link3, #link4 {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    letter-spacing: 0.3em;
+}
 
+.vertical-text {
+    transform: rotate(-90deg);
+    transform-origin: left top 0;
+}
 
-li {
-  display: inline;
-  padding: 90px;
-  letter-spacing:10px;
-  }
+#link3 {
+  position: absolute;
+}
