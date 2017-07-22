@@ -13,7 +13,7 @@
 
 
 .container {
-  width: 100%;
+  width: 60%;
   margin-left: auto;
   margin-right: auto;
   background: #fff;
@@ -33,6 +33,12 @@
   text-align:center;
 }
 
+h1 {
+    font-family: Courier;
+    font-weight: 300;
+    text-align: left;
+}
+
 .portfolio--title {
   font-family: Gilroy, Futura, sans-serif;
   z-index:1;
@@ -40,34 +46,41 @@
 
 .portfolio--title .left, .portfolio--title .right  {
     position: absolute;
+    font-size: calc(100px + 4.7vw);
 }
 
 .portfolio--title .left {
   top: 20%;
+  left: -10%;
 }
 
 .portfolio--title .right  {
   bottom: 20%;
+  right: -10%;
 }
 
 .teaserimage--container {
   font: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
+  width:80%;
+  display: block;
+}
+
+.teaserimage {
+    width: 100%;
+    box-sizing: border-box;
+    display: block;
 }
 
 .navigation {
   font-family: "Courier New", Courier, "Lucida Sans Typewriter", "Lucida Typewriter", monospace;
   font-size: 25px;
-  font-style: normal;
-  font-variant: normal;
-  font-weight: 500;
-  list-style-type: none;
-  display: inline-block;
+  list-style: none;
   padding: 0;
-  bottom:20px;
-  position: relative;
+  margin: 0;
   text-align: center;
-  width: 100%;
 }
+
+
 
 li {
   display: inline;
