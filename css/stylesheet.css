@@ -39,7 +39,7 @@ h1 {
 }
 
 .teaserimage--container {
-  width: 71%;
+  width: 70%;
   margin: 0 auto;
   position: relative;
   margin-bottom: 18px;
@@ -90,54 +90,47 @@ h1 {
 }
 
 @media screen (max-width: 767px){
-  #link1, #link2, #link3, #link4 {
-      width: 100%;
-      display: block;
-  }
-}
-
-
-@media screen and (min-width: 600px) and (max-width: 767px){
-  #link1, #link2, #link3, #link4 {
-      width: 24%;
-      box-sizing: border-box;
-      display: inline-block;
-      margin: 0;
-      padding: 0;
-      letter-spacing: 0.3em;
+    #link1, #link2, #link3, #link4 {
+        width:100%;
+        display: block;
     }
 }
 
-
+@media screen and (min-width: 600px) and (max-width: 767px){
+    #link1, #link2, #link3, #link4 {
+        width: 24%;
+        box-sizing: border-box;
+        display: inline-block;
+        margin: 0;
+        padding: 0;
+        letter-spacing: 0.3em;
+    }
+}
 @media screen and (min-width: 768px) {
-.vertical-text {
-    transform: rotate(-90deg);
-    transform-origin: left top 0;
-  }
-}
+    .vertical-text {
+        transform: rotate(-90deg);
+        transform-origin: left top 0;
+    }
+    #link1, #link2, #link3, #link4 {
+        font-size: 18px;
+        letter-spacing: 0.3em;
+    }
 
+    #link2 {
+        position: absolute;
+        left: 8%;
+        bottom: 20%;
+    }
 
-#link1, #link2, #link3, #link4 {
-    font-size: 18px;
-    letter-spacing: 0.3em;
-}
+    #link3 {
+        position: absolute;
+        left: 87%;
+        bottom: 60%;
+    }
 
-#link2 {
-  position: absolute;
-  left:8%
-  bottom:20%;
-}
-
-#link3 {
-  position: absolute;
-  left:87%
-  bottom:60%;
-}
-
-#link1, #link4 {
-    width: 49%;
-    box-sizing: border-box;
-    display: inline-block;
-}
-
+    #link1, #link4 {
+        width: 49%;
+        box-sizing: border-box;
+        display: inline-block;
+    }
 }
