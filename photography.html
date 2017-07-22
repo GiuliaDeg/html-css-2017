@@ -5,8 +5,8 @@
   <title>giulia degasperi</title>
   <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-  <script src="/javascript/swiper.jquery.min.js"></script>
-  <script src="/css/swiper.min.css"></script>
+  <script src="js/swiper.jquery.min.js"></script>
+  <link href="css/swiper.min.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
@@ -23,13 +23,23 @@
         <h1>giulia degasperi</h1>
     </header>
 
+
     <div class="main">
       <div class="teaserimage--container">
-      <div class="portfolio--title">
-          <h2><span class="left">port</span><span class="right">folio</span></h2>
-        </div>
-        <img src="images/background.jpg" alt="Main Picture" class="teaserimage">
+          <div class="swiper-container">
+              <div class="swiper-wrapper">
+
+                  <div class="swiper-slide"><img src="images/45gradi.jpg" alt="Main Picture" class="teaserimage"></div>
+                  <div class="swiper-slide"><img src="images/ripensaci.jpg" alt="Main Picture" class="teaserimage"></div>
+                  <div class="swiper-slide"><img src="images/ilcanedelvicino.jpg" alt="Main Picture" class="teaserimage"></div>
+              </div>
+
+              <div class="swiper-pagination swiper-pagination-white"></div>
+              <div class="swiper-button-prev swiper-button-white"></div>
+              <div class="swiper-button-next swiper-button-white"></div>
+          </div>
       </div>
+
 
       <ul class="navigation">
         <li id="link1"><a href="about.html">about</a></li>
@@ -39,8 +49,21 @@
       </ul>
 
     </div>
-
   </div>
+
+  <script>
+     $(document).ready(function () {
+       //initialize swiper when document ready
+       var mySwiper = new Swiper ('.swiper-container', {
+         // Optional parameters
+         direction: 'horizontal',
+         loop: true,
+         // Navigation arrows
+         nextButton: '.swiper-button-next',
+         prevButton: '.swiper-button-prev',
+       })
+     });
+  </script>
 
 </body>
 </html>
