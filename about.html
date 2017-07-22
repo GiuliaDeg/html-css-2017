@@ -3,7 +3,10 @@
 <head>
   <meta charset="utf-8">
   <title>giulia degasperi</title>
-  <link href="css/stylesheet.css" rel="stylesheet" type="text/css" />
+  <link href="css/stylesheet.css" rel="stylesheet" type="text/css"/>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="/js/swiper.jquery.min.js"></script>
+  <script src="/css/swiper.min.css"></script>
 </head>
 
 <body>
@@ -14,6 +17,9 @@
   <style>
   A:link, A:visited { text-decoration: none ; color:black;}
   A:hover { text-decoration: underline; color:black; }
+  .teaserimage--container {
+    overflow: auto;
+    }
   .header {
         margin-bottom: 70px;
         }
@@ -25,7 +31,13 @@
 
     <div class="main">
       <div class="teaserimage--container">
-        <img src="images/profil.jpg" alt="Main Picture" class="teaserimage">
+      <img style="float:left; padding-right: 30px; width:40%;" src="images/profil.jpg">
+      <div class="about-text">
+        <p>Giulia Degasperi was born in Trento (Italy) in 1992.</p>
+        <p>After finishing her studies in Languages and Literatures she moved to Berlin in 2015.</p>
+        <p>Currently she is studying Communication Design at the HTW Berlin and working as a Fotodesigner for Fotoimpex GmbH.</p>
+        <p>Film photography and graphic design are her major fields of interest.</p>
+      </div>
       </div>
 
 
