@@ -113,13 +113,13 @@ h1 {
         transform-origin: left top 0;
     }
     #link1, #link2, #link3, #link4 {
-        font-size: 18px;
+        font-size: 25px;
         letter-spacing: 0.3em;
     }
 
     #link2 {
         position: absolute;
-        left: 8%;
+        left: 10%;
         bottom: 20%;
     }
 
@@ -130,7 +130,7 @@ h1 {
     }
 
     #link1, #link4 {
-        width: 49%;
+        width: 30%;
         box-sizing: border-box;
         display: inline-block;
     }
