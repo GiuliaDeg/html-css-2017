@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    width: 90%;
+    width: 100%;
     background: #fff;
 }
 
@@ -28,7 +28,6 @@ body {
 
 .header {
     padding-top: 40px;
-    padding-bottom:8px;
     padding-left: 55px;
     text-align:center;
 }
@@ -40,10 +39,10 @@ h1 {
 }
 
 .teaserimage--container {
-  width: 70%;
+  width: 71%;
   margin: 0 auto;
   position: relative;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 
@@ -59,13 +58,13 @@ h1 {
 
 .portfolio--title .left, .portfolio--title .right  {
     position: absolute;
-    font-size: calc(100px + 4.7vw);
+    font-size: calc(80px + 4.7vw);
     letter-spacing: 10px;
 }
 
 .portfolio--title .left {
     top: 23%;
-    left: -13.5%;
+    left: -13%;
 }
 
 
