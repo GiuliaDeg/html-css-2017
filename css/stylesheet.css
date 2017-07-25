@@ -59,7 +59,7 @@ h1 {
 
 .portfolio--title .left, .portfolio--title .right  {
     position: absolute;
-    font-size: calc(150px + 4.7vw);
+    font-size: calc(120px + 4.7vw);
     letter-spacing: 20px;
 }
 
